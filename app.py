@@ -1,10 +1,5 @@
 import streamlit as st
-import pickle
 import numpy as np
-
-# Load model and scaler
-model = pickle.load(open("random_forest_model.pkl", "rb"))
-scaler = pickle.load(open("scaler.pkl", "rb"))
 
 st.title("Credit Card Default Prediction")
 
